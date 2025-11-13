@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils';
 
 interface BadgeProps {
   children: React.ReactNode;
-  variant?: 'default' | 'success' | 'warning' | 'error' | 'achievement';
+  variant?: 'default' | 'success' | 'warning' | 'error' | 'achievement' | 'secondary';
   size?: 'sm' | 'md' | 'lg';
   className?: string;
   icon?: string;
