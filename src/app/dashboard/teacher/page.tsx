@@ -7,7 +7,8 @@ import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 import Badge from '@/components/ui/Badge';
 import Link from 'next/link';
-import { Teacher, Booking } from '@/types/teacher';
+import { Teacher } from '@/types/teacher';
+import { Booking } from '@/types/booking';
 
 export default function TeacherDashboard() {
   const [teacher, setTeacher] = useState<Teacher | null>(null);
